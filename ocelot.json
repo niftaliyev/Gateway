@@ -5,7 +5,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "34.116.153.61",
+          "Host": "google.com",
           "Port": 80
         }
       ],
