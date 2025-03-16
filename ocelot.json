@@ -13,7 +13,7 @@
       "UpstreamHttpMethod": [ "GET" ]
     },
     {
-      "DownstreamPathTemplate": "/Test",
+      "DownstreamPathTemplate": "/Test/test",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
