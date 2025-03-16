@@ -35,4 +35,4 @@ jobs:
             docker pull ${{ secrets.DOCKER_USERNAME }}/ocelot:latest
             docker stop ocelot || true
             docker rm ocelot || true
-            docker run -d --name ocelot -p 8088:8088 ${{ secrets.DOCKER_USERNAME }}/ocelot:latest
+            docker run -d --name ocelot -p 8088:8080 ${{ secrets.DOCKER_USERNAME }}/ocelot:latest
