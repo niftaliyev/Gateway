@@ -5,8 +5,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 80
+          "Host": "gatewayapp",
+          "Port": 8081
         }
       ],
       "UpstreamPathTemplate": "/test",
