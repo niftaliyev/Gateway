@@ -9,19 +9,7 @@
           "Port": 8080
         }
       ],
-      "UpstreamPathTemplate": "/weather",
-      "UpstreamHttpMethod": [ "GET" ]
-    },
-    {
-      "DownstreamPathTemplate": "/test",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "gatewayapp",
-          "Port": 8080
-        }
-      ],
-      "UpstreamPathTemplate": "/hello",
+      "UpstreamPathTemplate": "/test",
       "UpstreamHttpMethod": [ "GET" ]
     }
   ],
