@@ -21,9 +21,9 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t myapp:latest .
-          docker tag myapp:latest ${{ secrets.DOCKER_USERNAME }}/myapp:latest
-          docker push ${{ secrets.DOCKER_USERNAME }}/myapp:latest
+          docker build -t ocelot:latest .
+          docker tag ocelot:latest ${{ secrets.DOCKER_USERNAME }}/ocelot:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/ocelot:latest
 
       - name: Deploy to Remote Server via SSH
         uses: appleboy/ssh-action@v1.0.3
@@ -32,7 +32,7 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            docker pull ${{ secrets.DOCKER_USERNAME }}/myapp:latest
-            docker stop myapp || true
-            docker rm myapp || true
-            docker run -d --name myapp -p 8088:8088 ${{ secrets.DOCKER_USERNAME }}/myapp:latest
+            docker pull ${{ secrets.DOCKER_USERNAME }}/ocelot:latest
+            docker stop ocelot || true
+            docker rm ocelot || true
+            docker run -d --name ocelot -p 8088:8088 ${{ secrets.DOCKER_USERNAME }}/ocelot:latest
