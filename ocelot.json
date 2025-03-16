@@ -5,11 +5,11 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "34.116.153.61/",
+          "Host": "localhost",
           "Port": 8081
         }
       ],
-      "UpstreamPathTemplate": "/test",
+      "UpstreamPathTemplate": "/products",
       "UpstreamHttpMethod": [ "GET" ]
     }
   ],
