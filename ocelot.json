@@ -5,7 +5,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "gatewayapp",
+          "Host": "34.116.153.61/",
           "Port": 8081
         }
       ],
