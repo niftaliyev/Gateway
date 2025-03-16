@@ -9,7 +9,7 @@
           "Port": 8080
         }
       ],
-      "UpstreamPathTemplate": "/test",
+      "UpstreamPathTemplate": "/weather",
       "UpstreamHttpMethod": [ "GET" ]
     },
     {
@@ -21,7 +21,7 @@
           "Port": 8080
         }
       ],
-      "UpstreamPathTemplate": "/test",
+      "UpstreamPathTemplate": "/hello",
       "UpstreamHttpMethod": [ "GET" ]
     }
   ],
