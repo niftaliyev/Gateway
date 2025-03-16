@@ -40,3 +40,4 @@ D:\testprojects\OcelotGateway\OcelotGateway\obj\Debug\net9.0\refint\OcelotGatewa
 D:\testprojects\OcelotGateway\OcelotGateway\obj\Debug\net9.0\OcelotGateway.pdb
 D:\testprojects\OcelotGateway\OcelotGateway\obj\Debug\net9.0\OcelotGateway.genruntimeconfig.cache
 D:\testprojects\OcelotGateway\OcelotGateway\obj\Debug\net9.0\ref\OcelotGateway.dll
+D:\testprojects\OcelotGateway\OcelotGateway\obj\Debug\net9.0\OcelotGateway.sourcelink.json
