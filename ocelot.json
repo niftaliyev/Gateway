@@ -6,7 +6,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "gateway-cont", // Use the container name here
-          "Port": 8081
+          "Port": 8084
         }
       ],
       "UpstreamPathTemplate": "/products",
