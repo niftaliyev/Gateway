@@ -6,7 +6,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "34.116.153.61",
-          "Port": 8081
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/test",
