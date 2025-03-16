@@ -5,8 +5,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "google.com",
-          "Port": 80
+          "Host": "34.116.153.61",
+          "Port": 8081
         }
       ],
       "UpstreamPathTemplate": "/products",
