@@ -6,10 +6,10 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 8084
+          "Port": 8080
         }
       ],
-      "UpstreamPathTemplate": "/products",
+      "UpstreamPathTemplate": "/test",
       "UpstreamHttpMethod": [ "GET" ]
     }
   ],
