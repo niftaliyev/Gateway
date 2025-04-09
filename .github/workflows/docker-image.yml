@@ -36,3 +36,8 @@ jobs:
             docker stop ocelot || true
             docker rm ocelot || true
             docker run -d --name ocelot -p 8088:8080 ${{ secrets.DOCKER_USERNAME }}/ocelot:latest
+
+            # Создание сети testnetwork, если она не существует
+            docker network inspect testnetwork || docker network create testnetwork       
+            # Подключение контейнера к сети testnetwork
+            docker network connect testnetwork ocelot
